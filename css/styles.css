@@ -229,7 +229,7 @@ margin-right: 10px;
     background-color: rgba(0, 0, 0, 0.2);
     visibility: visible;
     opacity: 1;
-    transition: opacity var(--typical-timing-duration) var(--typical-timing-function); visibility var(--typical-timing-duration) var(--typical-timing-function);
+    transition: opacity var(--typical-timing-duration) var(--typical-timing-function), visibility var(--typical-timing-duration) var(--typical-timing-function);
 }
 .backdrop.is-hidden{
     visibility: hidden;
